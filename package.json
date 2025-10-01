@@ -1,0 +1,30 @@
+{
+    "name": "neurex-chatbot",
+    "version": "1.0.0",
+    "description": "A lightweight vanilla JavaScript widget that can be embedded into any website.",
+    "main": "dist/chatbot.umd.js",
+    "module": "dist/chatbot.esm.js",
+    "files": [
+      "dist",
+      "src"
+    ],
+    "scripts": {
+      "dev": "rollup -c -w",
+      "build": "rollup -c",
+      "clean": "rm -rf dist"
+    },
+    "keywords": [
+      "javascript",
+      "widget",
+      "vanilla-js",
+      "chatbot",
+      "frontend"
+    ],
+    "author": "Your Name <your@email.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "rollup": "^4.0.0",
+      "@rollup/plugin-terser": "^0.4.4"
+    }
+  }
+  
