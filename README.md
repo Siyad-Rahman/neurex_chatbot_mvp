@@ -23,9 +23,13 @@ Run in development mode:
 npm run dev
 
 Open ./test/index.html directly in Chrome (drag and drop or open via browser) to test the widget locally.
+```
 
+-----------------------------------------------------------------------------------
 
 🌍 Embedding in Any Website
+```bash
+
 
 After building and pushing to github, you can embed the widget on any site using:
 
