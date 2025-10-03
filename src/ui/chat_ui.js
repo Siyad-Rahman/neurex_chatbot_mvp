@@ -140,8 +140,6 @@ export class ChatUI {
     const bubble = document.createElement("div");
     bubble.innerText = text;
 
-    console.log("loadingloadingloading", type);
-
     if (sender === "bot" && text === "...") {
       bubble.classList.add("loading-bubble");
       bubble.innerText = "…"; // Typing indicator
